@@ -176,7 +176,7 @@ class InternalDayViewPage<T extends Object?> extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _InternalWeekViewPageState<T> createState() => _InternalWeekViewPageState<T>();
+  _InternalDayViewPageState<T> createState() => _InternalDayViewPageState<T>();
 }
 
 class _InternalDayViewPageState<T extends Object?>
